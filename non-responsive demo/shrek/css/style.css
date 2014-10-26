@@ -1,0 +1,640 @@
+/* IMPORT RESET */
+@import url("reset.css");
+
+/* IMPORT 12 COLUMN RESPONSIVE GS */
+@import url("responsive.gs.16col.css");
+
+
+
+
+
+
+
+/* =Global Elements
+
+-------------------------------------------------------------- */
+
+body {
+	font-family: arial, sans-serif;
+	color: #000;
+	line-height: 30px;
+	background: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 40px;
+	padding: 10px 0;
+}
+
+h2 {
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+h2.opening-hours {
+	background: url("../images/icon-opening-hours.jpg") no-repeat left 20%;
+	padding-left: 40px;
+}
+h2.maintenance {
+	background: url("../images/icon-maintenance.jpg") no-repeat left 20%;
+	padding-left: 40px;
+}
+.ride-title {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 0 20px;
+	position: relative;
+	top: -12px;
+	color: #fff;
+}
+
+#top-nav {
+	position: relative;
+	z-index: 3000;
+}
+
+#top-nav nav {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	position: absolute;
+	top: 8px;
+	left: 215px;
+}
+#top-nav nav li {
+	float: left;
+	margin-right: 35px;
+	color: white;
+}
+#top-nav nav li.active {
+	color: #000;
+	background: white;
+	padding: 10px 30px;
+	margin-top: -8px;
+}
+#top-nav nav li.login {
+	position: absolute;
+	right: -44r0px;
+}
+
+#main-nav-container {
+	height: 102px;
+	width: 100%;
+	background: #ffffff;
+}
+
+#main-nav {
+	position: relative;
+	z-index: 6000;
+	border-bottom: #999 solid 1px;
+}
+
+#main-nav nav {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	position: absolute;
+	top: 40px;
+	left: 250px;
+}
+#main-nav nav li {
+	float: left;
+	margin-right: 35px;
+}
+.buy-tickets {
+	background: #ff1c23;
+	padding: 10px 30px;
+	position: relative;
+	top: -10px;
+	margin-left: 80px;
+	color: white;
+}
+.search {
+	position: absolute;
+	right: 230px;
+}
+
+
+video#bgvid { 
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	background-size: cover; 
+	display: none;
+	
+}
+
+.white-bg {
+	background: #fff;
+}
+
+
+
+
+
+
+
+
+/* =Header Elements
+
+-------------------------------------------------------------- */
+header .banner {
+	
+}
+
+#top-nav {
+	height: 50px;
+	background: transparent url('../images/nav-bg.jpg') fixed;
+	z-index: 3000;
+}
+#main-nav {
+	height: 102px;
+	background: #fff;
+}
+#logo {
+	position: absolute;
+	z-index: 5000;
+}
+.dark-nav-bg {
+	height: 78px;
+	background: #000;
+	z-index: 1000;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	zoom: 1;
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+.dark-nav {
+	height: 78px;
+	z-index: 1000;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15px;
+}
+.day-planner {
+	position: fixed;
+	right: 0;
+	top: 152px;
+	z-index: 5000;
+}
+.day-planner-icons {
+	right: -137px;
+	top: 102px;
+}
+.cursor {
+	cursor: pointer;
+}
+.buttons {
+	position: absolute;
+	left: 10%;
+	bottom: 20%;
+	z-index: 2000;
+	width: 200px;
+
+}
+.button-mute {
+	background: #FEDF15 url('../images/button-audio-on.png') no-repeat center center;
+	background-size: 25px;
+	padding: 12px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	position: absolute;
+	bottom: 94px;
+	left: 103px;
+	-webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+.button-mute:hover {
+	background: #fff url('../images/button-audio-on.png') no-repeat center center;
+	background-size: 25px;
+}
+.button-unmute {
+	background: #FEDF15 url('../images/button-audio-off.png') no-repeat center center;
+	background-size: 25px;
+	-webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+.button-unmute:hover {
+	background: #fff url('../images/button-audio-off.png') no-repeat center center;
+	background-size: 25px;
+}
+.button-camera {
+	background: #FEDF15;
+	padding: 14px 15px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	position: absolute;
+	bottom: 35px;
+    left: 124px;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+.button-camera img {
+	width: 25px;
+	position: relative;
+	right: 2px;
+}
+.button-camera:hover {
+	background: #fff;
+}
+.button-video {
+	background: #FEDF15 url('../images/button-play.png') no-repeat 58% center;
+	background-size: 30px;
+	padding: 50px;
+	display: block;
+	width: 110px;
+	height: 110px;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	-webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+.button-video:hover {
+	background: #fff url('../images/button-play.png') no-repeat 58% center;
+	background-size: 30px;
+}
+.button-pause {
+	background: #fff url('../images/button-pause.png') no-repeat center center;
+	background-size: 25px;
+	padding: 50px;
+	display: block;
+	width: 110px;
+	height: 110px;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	display: none;
+	-webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+.button-pause:hover {
+	background: #eaeaea url('../images/button-pause.png') no-repeat center center;
+	background-size: 25px;
+}
+.full-banner {
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    padding-top: 200px;
+}
+.rides {
+	background: url("http://www.dreamworld.com.au/Home/Banners/Images/Main-Banner/BuzzSaw.jpg") no-repeat fixed center top / cover rgba(0, 0, 0, 0);
+}
+.cubs {
+	background: url("http://www.coastergallery.com/2009/Eureka_Mountain_Mine_Ride.jpg") no-repeat fixed center top / cover rgba(0, 0, 0, 0);
+}
+.rapids {
+	background: url("../images/mine.jpg") no-repeat fixed center top;
+	background-size: cover;
+	max-height: 200px;
+}
+.river-rapids {
+	height: 730px;
+	overflow: hidden;
+}
+
+.droplets {
+	margin-top: 800px;
+}
+
+
+
+
+.river-rapids .waves-right {
+	margin-left: 550px;
+	margin-top: 480px;
+}
+
+.river-rapids .waves-left {
+	margin-left: -300px;
+	margin-top: 480px;
+}
+.river-rapids .title {
+	margin-left: 100px;
+	margin-top: 600px;
+}
+
+.stats-container {
+	max-height: 385px;
+	min-height: 385px;
+}
+.stats {
+	text-align: left;
+}
+img.stats {
+	margin-top: -100px;
+
+}
+
+#tubular-container {
+	display: none;
+}
+
+
+
+.bg {
+	margin-left: -230px;
+	margin-top: -520px;
+}
+.overlay-left {
+	margin-left: -150px;
+	margin-top: 190px;
+}
+.overlay-right {
+	margin-left: 1350px;
+	margin-top: 190px;
+}
+.overlay-bottom {
+	margin-left: -180px;
+	margin-top: 700px;
+}
+.character-1 {
+	margin-left: 600px;
+	margin-top: 330px;
+}
+.character-2 {
+	margin-left: 300px;
+	margin-top: 500px;
+}
+.lens-flare {
+	margin-left: -900px;
+	margin-top: -700px;
+}
+
+
+
+
+
+
+
+/* =Content Elements
+
+-------------------------------------------------------------- */
+
+
+.content {
+	max-width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
+.content-padding {
+	padding: 50px 0;
+}
+
+.cta-black {
+	background: #272727;
+	min-height: 220px;
+	padding: 70px 0;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+.cta-black h2 {
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+.cta-black p {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.cta-yellow {
+	background: #fec10f url("../images/world-pass-bg.jpg") no-repeat left;
+	height: 217px;
+	padding-top: 20px;
+	
+}
+.cta-yellow .content {
+	text-align: center;
+}
+
+
+.header-tabs {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 22px;
+	position: absolute;
+	top: -40px;
+	left: 0px;
+	width: 100%;
+}
+.header-tabs .white-tab {
+	color: #000;
+	background: white;
+	padding: 10px 30px;
+	width: 150px;
+}
+.header-tabs .grey-tab {
+	color: #000;
+	background: #dcdcdc;
+	padding: 10px 30px;
+	width: 300px;
+}
+
+.header-tabs .yellow-tab {
+	color: #000;
+	background: #FEDF15;
+	padding: 10px 30px;
+	width: 300px;
+}
+.header-tabs .fb-tab {
+	color: #000;
+	position: absolute;
+	right: 0;
+	top: -92px;
+}
+
+.connect {
+	background: #E1E1E1;
+	height: 180px;
+	padding-top: 30px;
+	border-bottom: white solid 3px;
+	
+}
+.connect .content {
+	text-align: center;
+}
+
+
+
+/* =Footer Elements
+
+-------------------------------------------------------------- */
+
+
+footer {
+	background: #E1E1E1;
+	padding-top: 30px;
+	
+}
+footer .content {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* =Form Elements
+
+-------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =Other Elements
+
+-------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =Responsive Elements
+
+-------------------------------------------------------------- */
+
+@media only screen and (min-width: 1199px) {
+
+}
+
+
+@media only screen and (max-width: 1199px) {
+	img.responsive {
+		max-width: 100%;
+	}
+	#main-nav nav li.mobile-menu {
+		display: none;
+	}
+	#main-nav nav {
+		right: 0;
+		left: auto;
+	}
+	.white-bg {
+		padding: 0 30px;
+	}
+	.search {
+		background: url('../images/mobile-menu.png') no-repeat left center;
+		text-align: right;
+		background-size: 25px;
+		right: 214px;
+		height: 29px;
+    	width: 23px;
+	}
+	.search img {
+		display: none;
+	}
+	.day-planner {
+		right: -137px;
+		top: 152px;
+	}
+	.buttons {
+		left: 2%;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	
+}
+
+
+@media only screen and (max-width: 768px) {
+	#top-nav,
+	#main-nav-container,
+	#main-nav-container-sticky-wrapper,
+	.header-tabs span {
+		display: none !important;
+	}
+	.day-planner {
+		right: -137px;
+		top: 78px;
+	}
+	
+}
+
+@media only screen and (max-width: 450px) {
+        .day-planner {
+        	display: none !important;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

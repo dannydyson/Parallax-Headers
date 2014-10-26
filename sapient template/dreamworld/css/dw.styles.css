@@ -1,0 +1,679 @@
+/* Large desktop (>= 1200px) */
+/* Desktop */
+/* Portrait tablet to landscape and desktop (<= 979px) */
+/* Landscape phone to portrait tablet (<= 767px)*/
+/* Landscape phones and down (<= 480px) */
+/* line 6, ../../../src/sass/dreamworld/layout/_layout.scss */
+#category-page .ad-hero-img {
+  height: 480px;
+  overflow: hidden;
+}
+/* line 9, ../../../src/sass/dreamworld/layout/_layout.scss */
+#category-page .ad-hero-img img {
+  width: 100%;
+}
+/* line 13, ../../../src/sass/dreamworld/layout/_layout.scss */
+#category-page .page-heading {
+  margin-bottom: 50px;
+}
+/* line 16, ../../../src/sass/dreamworld/layout/_layout.scss */
+#category-page .heading-logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  /* line 24, ../../../src/sass/dreamworld/layout/_layout.scss */
+  #content-main {
+    margin-top: 50px;
+  }
+}
+/* line 5, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+/* line 12, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .navbar-header button .icon-bar {
+  background-color: #151515;
+}
+/* line 17, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .theme-park-nav-wrapper {
+  background-color: #000000;
+  opacity: 0.7;
+}
+/* line 20, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .theme-park-nav-wrapper .theme-park-nav {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+/* line 23, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .theme-park-nav-wrapper .theme-park-nav.nav-tabs {
+  border-bottom: none;
+}
+/* line 26, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .theme-park-nav-wrapper .theme-park-nav.nav-tabs li a {
+  padding: 10px 30px;
+  border-radius: 0;
+  color: #ffffff;
+}
+/* line 30, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .theme-park-nav-wrapper .theme-park-nav.nav-tabs li a:hover {
+  color: #151515;
+}
+/* line 35, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .theme-park-nav-wrapper .theme-park-nav.nav-tabs li.active a {
+  color: #151515;
+}
+/* line 43, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper {
+  background-color: #ffffff;
+}
+/* line 45, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm {
+  overflow: visible;
+  background-color: inherit;
+  padding: 0;
+  min-height: 100px;
+  border-color: transparent;
+}
+/* line 51, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm.navbar {
+  border: none;
+}
+/* line 53, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm #ad-logo-img-sm {
+  position: absolute;
+  top: 0;
+}
+/* line 57, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu {
+  padding-left: 190px;
+  margin: 0;
+}
+/* line 61, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu .open .ad-main-menu-item {
+  background-color: #FFDD00;
+}
+/* line 63, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu .open .ad-main-menu-item i {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  z-index: 2001;
+  width: 100%;
+  text-align: center;
+}
+/* line 73, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu .open:after {
+  content: '';
+  position: relative;
+  top: 100%;
+  display: block;
+  margin: 0 auto;
+  background: #FFDD00;
+  width: 25px;
+  height: 13px;
+  border-radius: 0 0 50px 50px;
+  z-index: 2000;
+}
+/* line 86, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu .ad-main-menu-item {
+  text-transform: uppercase;
+  color: #151515;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 91, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu .ad-main-menu-item i {
+  display: none;
+}
+/* line 95, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu .searchbar {
+  position: absolute;
+  right: 10px;
+  top: 41px;
+  cursor: pointer;
+}
+/* line 100, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu .searchbar .wrapper {
+  display: none;
+  background-color: #dedede;
+  padding: 10px 5px 10px 10px;
+}
+/* line 103, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu .searchbar .wrapper input {
+  background-color: #dedede;
+  border: none;
+  outline: none;
+}
+/* line 110, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .ad-main-menu .searchbar .wrapper i {
+  vertical-align: middle;
+}
+/* line 116, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .nav, header.ad-header .nav-wrapper .yamm .collapse, header.ad-header .nav-wrapper .yamm .dropup, header.ad-header .nav-wrapper .yamm .dropdown {
+  position: static;
+}
+/* line 120, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .container {
+  position: relative;
+}
+/* line 124, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .dropdown-menu {
+  left: auto;
+}
+/* line 129, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .yamm-content {
+  padding: 20px 30px;
+}
+/* line 133, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+/* line 138, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .nav-wrapper .submenu .mega-menu {
+  width: 100%;
+}
+/* line 143, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu {
+  padding: 80px 0px;
+  border: 0px;
+  opacity: 0.8;
+}
+/* line 147, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module {
+  padding-bottom: 60px;
+}
+/* line 149, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module .ad-category-image {
+  position: relative;
+  margin-bottom: 10px;
+}
+/* line 152, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module .ad-category-image img {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 157, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module .ad-cat-caption-wrapper {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+/* line 162, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module .ad-cat-caption-wrapper a {
+  font-size: 17px;
+  font-family: 'Oswald-Bold';
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 38px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+/* line 170, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module .ad-cat-caption-wrapper a:after {
+  content: '>';
+  padding-left: 10px;
+}
+/* line 176, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module .ad-link-list-heading {
+  padding-top: 10px;
+  font-family: 'UniversLTPro-55Roman';
+  font-style: italic;
+  padding-bottom: 10px;
+  display: block;
+}
+/* line 183, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module .ad-cat-sublinks {
+  padding-left: 0px;
+}
+/* line 185, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module .ad-cat-sublinks a {
+  font-family: 'UniversLTPro-45Light';
+  text-decoration: none;
+  padding: 10px 0px;
+  color: #151515;
+  display: inline-flex;
+}
+/* line 191, ../../../src/sass/dreamworld/layout/_header.scss */
+header.ad-header .mega-menu .ad-category-module .ad-cat-sublinks a:before {
+  content: '>';
+  padding-right: 10px;
+  color: #428bca;
+  font-family: 'Oswald-Bold';
+}
+
+@media (max-width: 991px) {
+  /* line 205, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header {
+    background-color: white;
+  }
+  /* line 207, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .navbar-toggle {
+    float: none;
+  }
+  /* line 209, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .navbar-toggle #ad-logo-img-xs {
+    position: fixed;
+    top: 0;
+    left: 38%;
+    z-index: 1;
+    width: 25%;
+  }
+  /* line 218, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .nav-wrapper .yamm {
+    min-height: 0;
+    padding: 0;
+    border: none;
+    margin: 0;
+  }
+  /* line 223, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .nav-wrapper .yamm .ad-main-menu {
+    padding-left: 0;
+  }
+  /* line 226, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .nav-wrapper .yamm .ad-main-menu .searchbar .wrapper {
+    display: block;
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  /* line 225, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .nav-wrapper .yamm .ad-main-menu .searchbar {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 42px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 238, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu {
+    padding: 0px;
+    border: 0px;
+    opacity: 0.8;
+  }
+  /* line 242, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module {
+    padding: 10px;
+    background: #e7e7e7;
+    position: relative;
+  }
+  /* line 246, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-category-image {
+    margin: 0px;
+  }
+  /* line 248, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-category-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+  /* line 253, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-link-switcher {
+    padding: 10px;
+    background: #fff;
+  }
+  /* line 256, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-link-switcher a {
+    color: #000;
+  }
+  /* line 258, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-link-switcher a:after {
+    content: '>';
+    color: #000;
+    float: right;
+    position: relative;
+    top: 5px;
+    font-family: 'Oswald-Bold';
+  }
+  /* line 268, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-cat-sublinks {
+    text-align: center;
+  }
+  /* line 270, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-cat-sublinks li {
+    padding: 5px 0px;
+  }
+  /* line 272, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-cat-sublinks li.active {
+    background: rgba(255, 255, 255, 0.6);
+    transition: all .2s ease-in;
+    transform: scale(1.1);
+  }
+  /* line 279, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-cat-sublinks a:before {
+    content: '';
+  }
+  /* line 284, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-link-list-item {
+    position: absolute;
+    top: 22.5%;
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+    background: #e7e7e7;
+    z-index: 1;
+  }
+  /* line 292, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-link-list-item .ad-mobi-wrapper {
+    padding: 20px 0px;
+    overflow: hidden;
+  }
+  /* line 296, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-link-list-item .ad-page-picker {
+    background: #fff;
+  }
+  /* line 298, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-link-list-item .ad-page-picker .ad-icon-set {
+    padding-right: 20px;
+  }
+  /* line 301, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-link-list-item .ad-page-picker .ad-page-icons {
+    padding: 5px 10px 5px 0px;
+    display: inline-block;
+    cursor: pointer;
+    color: #428bca;
+  }
+  /* line 306, ../../../src/sass/dreamworld/layout/_header.scss */
+  header.ad-header .mega-menu .ad-category-module .ad-link-list-item .ad-page-picker .ad-page-icons.disabled {
+    color: #e7e7e7;
+    cursor: default;
+  }
+}
+/* line 320, ../../../src/sass/dreamworld/layout/_header.scss */
+#scPageExtendersForm + header.ad-header {
+  position: static;
+}
+
+/* line 5, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer {
+  padding-top: 50px;
+}
+/* line 6, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer h1, #ad-mod-footer .h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 11, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-social-connect {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ffffff;
+  line-height: 70px;
+}
+/* line 15, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-social-connect .ad-heading-text {
+  font-family: 'Oswald';
+  text-align: right;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+/* line 21, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-social-connect .ad-social-icons {
+  padding-left: 40px;
+}
+/* line 23, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-social-connect .ad-social-icons a {
+  margin-right: 35px;
+}
+/* line 25, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-social-connect .ad-social-icons a .bg-icon:before {
+  background-color: white;
+  border-radius: 50px;
+  padding: 20px;
+  font-size: 27px;
+  color: gray;
+  vertical-align: middle;
+}
+/* line 37, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-quick-links ul {
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+  margin: 0;
+  padding: 15px 0 15px 0;
+}
+/* line 42, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-quick-links ul a {
+  text-transform: uppercase;
+  color: #919191;
+  margin-right: 40px;
+}
+/* line 46, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-quick-links ul a span {
+  font-family: 'Oswald';
+  word-break: keep-all;
+}
+/* line 52, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-quick-links ul .ad-logo img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  margin-right: 0;
+}
+/* line 62, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .footer-link-list .link-list-heading {
+  font-family: 'Arial';
+  color: #151515;
+  font-size: 13px;
+}
+/* line 68, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .footer-link-list .link-list-item a:hover {
+  color: #151515;
+}
+/* line 73, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-copyright {
+  font-family: 'Arial';
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: #919191;
+}
+/* line 79, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-copyright p {
+  font-size: 13px;
+  margin: 0;
+}
+/* line 84, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper {
+  border-bottom: 1px solid #ffffff;
+}
+/* line 86, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper .ad-app-connect {
+  padding: 50px 0 0 0;
+}
+/* line 88, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-app-store {
+  padding: 80px 10px 0 0;
+  text-transform: uppercase;
+}
+/* line 91, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-app-store .heading {
+  font-family: 'Oswald';
+  margin-bottom: 5px;
+  max-width: 90%;
+}
+/* line 96, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-app-store img {
+  margin-top: 5px;
+  height: auto;
+  max-width: 100%;
+}
+/* line 103, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-app-img img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+/* line 109, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-wifi {
+  text-align: center;
+  padding-top: 80px;
+  text-transform: uppercase;
+}
+/* line 110, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-wifi img {
+  height: auto;
+  max-width: 100%;
+}
+/* line 117, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-wifi .ad-wifi-heading {
+  font-family: 'Oswald';
+}
+/* line 120, ../../../src/sass/dreamworld/layout/_footer.scss */
+#ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-wifi .ad-wifi-text {
+  color: #919191;
+  margin-top: 5px;
+  font-family: 'Oswald';
+}
+
+@media (max-width: 991px) {
+  /* line 133, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-social-connect .ad-heading-text {
+    font-size: 32px;
+  }
+  /* line 136, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-social-connect .ad-social-icons {
+    font-size: 24px;
+  }
+  /* line 138, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-social-connect .ad-social-icons a {
+    margin-right: 25px;
+  }
+  /* line 140, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-social-connect .ad-social-icons a .bg-icon:before {
+    padding: 20px;
+    font-size: 24px;
+  }
+  /* line 148, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .footer-link-list .link-list-item {
+    padding-bottom: 40px;
+  }
+  /* line 150, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .footer-link-list .link-list-item .link-list-heading {
+    font-size: 12px;
+  }
+  /* line 154, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .footer-link-list .link-list-item ul li {
+    padding-top: 10px;
+  }
+  /* line 156, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .footer-link-list .link-list-item ul li a {
+    font-size: 12px;
+  }
+  /* line 166, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-quick-links ul a {
+    font-size: 15px;
+    margin-right: 15px;
+  }
+  /* line 173, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-copyright p {
+    margin-bottom: 20px;
+  }
+  /* line 179, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-app-store {
+    padding-top: 0;
+  }
+  /* line 181, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-app-store img {
+    display: block;
+  }
+  /* line 185, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-wifi {
+    padding-top: 0;
+  }
+  /* line 187, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-wifi .ad-wifi-heading {
+    font-size: 32px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 199, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  /* line 202, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-social-connect {
+    padding-bottom: 0;
+  }
+  /* line 204, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-social-connect .ad-heading-text {
+    text-align: center;
+    font-size: 16.5px;
+    padding-top: 0;
+  }
+  /* line 209, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-social-connect .ad-social-icons {
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+  /* line 212, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-social-connect .ad-social-icons a {
+    margin-right: 12px;
+  }
+  /* line 214, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-social-connect .ad-social-icons a .bg-icon:before {
+    font-size: 20px;
+    padding: 12px;
+  }
+  /* line 222, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-quick-links ul {
+    padding-top: 0;
+    border-bottom: none;
+    text-align: left;
+  }
+  /* line 226, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-quick-links ul li {
+    display: block;
+    border-top: 1px solid #ffffff;
+  }
+  /* line 229, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-quick-links ul li a {
+    padding: 20px 0 20px 5px;
+    display: block;
+    margin-right: 0;
+    font-size: 16.5px;
+  }
+  /* line 234, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-quick-links ul li a.ad-logo {
+    text-align: center;
+  }
+  /* line 241, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper {
+    border-bottom: none;
+  }
+  /* line 243, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect {
+    padding-top: 25px;
+  }
+  /* line 245, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-app-store {
+    padding-left: 5px;
+  }
+  /* line 247, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-app-store .heading {
+    font-size: 16.5px;
+  }
+  /* line 251, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-app-img {
+    padding: 0;
+  }
+  /* line 255, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-wifi .ad-wifi-heading {
+    font-size: 16.5px;
+  }
+  /* line 258, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-app-connect-wrapper .ad-app-connect .ad-wifi img {
+    max-height: 60px;
+  }
+  /* line 264, ../../../src/sass/dreamworld/layout/_footer.scss */
+  #ad-mod-footer .ad-copyright {
+    font-family: 'Arial';
+    padding: 0 20px 35px 20px;
+    font-size: 12.5px;
+  }
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<title>Dreamworld - Shrek</title>
+
+	
+	
+	<link rel="stylesheet" media="all" href="css/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
+	
+	<script src="scripts/respond.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="dist/html5shiv.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+	//quick fix for old versions of IE
+	 document.createElement('header');
+	 document.createElement('nav');
+	 document.createElement('menu');
+	 document.createElement('section');
+	 document.createElement('article');
+	 document.createElement('aside');
+	 document.createElement('footer');
+	</script>
+	
+</head>
+
+<body>
+
+<video preload="auto" id="bgvid" class="vid-show">
+	<source src="video/river-rapids.ogv" type="video/ogv">
+	<source src="video/river-rapids.mp4" type="video/mp4">
+	<source src="video/river-rapids.webm" type="video/webm">
+</video>
+
+<div class="container row">
+	<section id="top-nav" class="row vid-hide-slide">
+			<div class="content row">
+			<nav>
+				<ul>
+					<li class="active">Dreamworld</li>
+					<li>WhiteWater World</li>
+					<li>Skypoint</li>
+				</ul>
+			</nav>
+			</div>
+		</section>
+
+</div>
+<div id="main-nav-container" class="container row">
+
+	<header role="banner" class="row">
+	
+		
+
+		<section id="main-nav" class="row">
+			<div class="content row">
+				<div id="logo" class="col span_2">
+					<a href="#"><img src="images/logo.png" alt="Dreamworld" /></a>
+				</div>
+				<nav>
+					<ul>
+						<li class="mobile-menu">What's On</li>
+						<li class="mobile-menu">Rides</li>
+						<li class="mobile-menu">Things to do</li>
+						<li class="mobile-menu">Park Info</li>
+						<li class="mobile-menu">Events</li>
+						<li class="mobile-menu">Education</li>
+						<li class="buy-tickets">Buy Tickets</li>
+					</ul>
+					<div class="search"><img src="images/search.jpg" alt="Search" /></div>
+					
+				</nav>
+			</div>
+		</section>
+	
+	</header>
+</div>
+<div class="container row">
+
+	<div id="day-planner-widget" class="day-planner">
+		<img src="images/day-planner.jpg" alt="Day Planner" />
+	</div>
+
+	<!--<div class="buttons">
+		<img src="images/title.png" alt="Day Planner" /><br />
+		<img src="images/buttons.png" alt="Day Planner" />
+	</div>-->
+
+	<div id="video-banner" class="full-banner row river-rapids">
+
+		<div class="dark-nav-bg vid-hide"></div>
+		<div class="dark-nav vid-hide">
+			<a href="http://www.guerrilladigital.com.au/test/dreamworld/tower-of-terror/"><img src="images/left-arrow.png" alt="Family Rides"></a>
+			<span class="ride-title">Shrek</span>
+			<a href="http://www.guerrilladigital.com.au/test/dreamworld/the-claw/"><img src="images/right-arrow.png" alt="Family Rides"></a>
+		</div>
+		
+
+		<audio id="background_audio" preload="auto" tabindex="0" autoplay loop muted>
+		    <source src="audio/river-rapids.mp3" type="audio/mpeg" />
+		    <source src="audio/river-rapids.ogg" type="audio/ogg" />
+		    Your browser does not support the audio element.
+		</audio>
+
+		<div class="buttons">
+			<!--<div class="river-rapids-logo">
+				<img src="images/river-rapids-logo.png" alt="River Rapids Logo" />
+			</div>-->
+			<a class="cursor" id="play-video"><div class="button-video vid-hide"></div></a>
+			<a class="cursor" id="pause-video"><div class="button-pause"></div></a>
+			<div class="button-camera button-fade">
+				<a class="cursor"><img  src="images/button-camera.png" alt="View Photos"></a>
+			</div>
+			<a class="cursor" id="mute"><div class="button-mute button-fade"></div></a>
+			
+		</div>
+
+		<ul id="scene" class="scene vid-hide">
+			<li class="layer bg" data-depth="0.20"><img src="images/parallax-slide/bg.jpg" alt="Dreamworld" /></li>
+			<li class="layer lens-flare" data-depth="0.90"><img src="images/parallax-slide/lens-flare.png" alt="Dreamworld" /></li>
+			
+			<li class="layer character-1" data-depth="0.40"><img src="images/parallax-slide/character-1.png" alt="Dreamworld" /></li>
+
+			<li class="layer character-2" data-depth="0.50"><img src="images/parallax-slide/character-2.png" alt="Dreamworld" /></li>
+			
+			<li class="layer overlay-left" data-depth="0.70"><img src="images/parallax-slide/overlay-left.png" alt="Dreamworld" /></li>
+			<li class="layer overlay-bottom" data-depth="0.90"><img src="images/parallax-slide/overlay-bottom.png" alt="Dreamworld" /></li>
+			<li class="layer overlay-right" data-depth="0.90"><img src="images/parallax-slide/overlay-right.png" alt="Dreamworld" /></li>
+		</ul>
+	</div>
+
+
+
+<section class="row white-bg">
+		<div class="content content-padding row vid-hide">
+
+			<div class="header-tabs">
+				<span class="white-tab">The Ride</span>
+				<span class="grey-tab">Back Story</span>
+				<span class="yellow-tab">+ Day Planner</span>
+				<div class="fb-tab"><img src="images/like-this-ride.png" alt="Like this ride on facebook" /></div>
+			</div>
+
+			<div class="row">
+				<h1>Shrek</h1>
+			</div>
+
+		</div>
+	</section>
+
+
+	<div class="full-banner rapids row vid-hide stats-container">
+		<div class="content row stats">
+			<img class="stats responsive" src="images/stats-small.png" alt="Statistics" />
+		</div>
+	</div>	
+		
+	
+	<section class="row white-bg">
+		<div class="content content-padding row vid-hide">
+
+			<article class="row gutters">
+
+				<div class="col span_8">
+					<p>All aboard for white water rafting! Travel down a foamy water track past the 
+	Gold Rush Country, speeding up to 45 km/h through the turbulent rapids.</p>
+
+					<p>Mauris vitae dolor velit. Sed id ipsum in nisl aliquam blandit at ut urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ac porttitor augue, sed eleifend felis. Aenean varius rhoncus massa, id imperdiet elit consectetur non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+	per inceptos himenaeos. Quisque a ligula nibh. Etiam id fermentum elit.</p>
+
+	<p>&nbsp;</p>
+
+					<h2>Experience the Thunder River Rapids online</h2>
+
+					<img src="images/thunder-icons.jpg" alt="Buttons" />
+
+
+				</div>
+
+				<div class="col span_1">&nbsp;</div>
+				
+
+				<div class="col span_7">
+
+					<h2 class="opening-hours">Opening Hours</h2>
+					<p>Mon-Fri (outside school holidays): 11am-4pm
+		Weekends &amp; School Holidays: 10am - 5pm</p>
+
+					<h2 class="maintenance">Maintenance</h2>
+
+					<p>This ride will be closed for annual 
+					mainteance from Monday 15th July through 
+		to the 28th July 2014 inclusive.</p>
+				</div>
+
+			</article>
+		</div>
+	</section>
+
+	<section class="cta-yellow row gutters vid-hide">
+		<div class="content row">
+			<img src="images/world-pass.png" alt="World Pass" class="responsive" />
+		</div>
+	</section>
+	<section class="row white-bg">
+		<div class="content content-padding row vid-hide">
+			<div style="text-align: center;">
+				<img src="images/more-rides.jpg" alt="More Rides" class="responsive" />
+			</div>
+		</div>
+	</section>
+
+
+	<section class="connect row gutters vid-hide">
+		<div class="content row">
+			<img src="images/connect.jpg" alt="World Pass" class="responsive" />
+		</div>
+	</section>
+
+	<footer class="row gutters vid-hide">
+		<div class="content row">
+			<img src="images/footer.jpg" alt="World Pass" class="responsive" />
+		</div>
+	</footer>
+
+</div>
+
+
+<!-- Scripts -->
+<script src="scripts/parallax.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="scripts/jquery.sticky.js"></script> 
+<script src="scripts/custom.js"></script>
+	
+
+</body>
+
+</html>
