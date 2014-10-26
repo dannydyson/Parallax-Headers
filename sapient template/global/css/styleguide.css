@@ -1,0 +1,101 @@
+/* Consolidated styles */
+/* line 3, ../../../src/sass/global/styleguide.scss */
+body {
+  font-family: "Univers 55 Roman";
+  font-size: 15px;
+}
+
+/* line 7, ../../../src/sass/global/styleguide.scss */
+.ad-bullet-points {
+  font-family: "Univers 45 Light";
+  font-size: 15px;
+}
+
+/* line 11, ../../../src/sass/global/styleguide.scss */
+.ad-headline-1 {
+  font-family: "Oswald Book";
+  font-size: 33px;
+}
+
+/* line 16, ../../../src/sass/global/styleguide.scss */
+.ad-headline-2 {
+  font-family: "Oswald Book";
+  font-size: 17px;
+}
+
+/* line 21, ../../../src/sass/global/styleguide.scss */
+.ad-call-to-action {
+  font-family: "Oswald Book";
+  font-size: 17px;
+}
+
+/* line 26, ../../../src/sass/global/styleguide.scss */
+.ad-text-link {
+  font-family: "Oswald Book";
+  font-size: 17px;
+}
+
+/* line 31, ../../../src/sass/global/styleguide.scss */
+.ad-themepark-nav {
+  font-family: "Oswald Book";
+  font-size: 15px;
+}
+
+/* line 36, ../../../src/sass/global/styleguide.scss */
+.ad-hover-orange {
+  color: #FFA900;
+}
+
+/* line 40, ../../../src/sass/global/styleguide.scss */
+.ad-hover-dark-blue {
+  color: #036690;
+}
+
+/* line 44, ../../../src/sass/global/styleguide.scss */
+.ad-hover-dark-red {
+  color: #AD181E;
+}
+
+/* line 48, ../../../src/sass/global/styleguide.scss */
+.ad-page-title {
+  margin-bottom: 30px;
+}
+
+/* line 52, ../../../src/sass/global/styleguide.scss */
+.ad-page-sub-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 57, ../../../src/sass/global/styleguide.scss */
+.ad-content-header {
+  margin-bottom: 50px;
+}
+
+/* line 61, ../../../src/sass/global/styleguide.scss */
+.ad-content-gallery-img {
+  margin-bottom: 20px;
+}
+
+/* line 65, ../../../src/sass/global/styleguide.scss */
+.ad-content-30px {
+  margin-top: 30px;
+}
+
+/* line 69, ../../../src/sass/global/styleguide.scss */
+ul.ad-bullet-points {
+  font-family: "Univers 45 Light";
+  font-size: 15px;
+}
+
+/* line 73, ../../../src/sass/global/styleguide.scss */
+.ad-headline-1 {
+  font-family: "Oswald Book";
+  font-size: 33px;
+}
+
+/* line 78, ../../../src/sass/global/styleguide.scss */
+.ad-headline-1 {
+  font-family: "Oswald Book";
+  font-size: 9px;
+}
